@@ -423,6 +423,16 @@ q {
     margin: -0.5em auto 0;
 }
 
+.pdf-link {
+    margin: 1.9em auto 0;
+}
+
+@media print {
+    .pdf-link {
+        display: none;
+    }
+}
+
 .versioning {
     margin: 3.8em auto 0;
 }
