@@ -437,8 +437,6 @@ q {
     margin: 3.8em auto 0;
 }
 
-.verification-code {}
-
 .intro p, .intro em {
     font-style: italic;
 }
@@ -1157,14 +1155,6 @@ q {
    ========================================================================== */
 
 @media print {
-    /* Removed all this stuff because we'll be aiming to make everything deliberate for print */
-    * {
-        /*background: transparent !important;
-        color: #000 !important;*/
-        /* Black prints faster: h5bp.com/s */
-        /*box-shadow: none !important;
-        text-shadow: none !important;*/
-    }
     a, a:visited {
         text-decoration: underline;
     }
